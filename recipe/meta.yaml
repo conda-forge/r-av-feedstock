@@ -1,4 +1,4 @@
-{% set version = '0.5.1' %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/av_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/av/av_{{ version }}.tar.gz
-  sha256: 49bc43d3474bcaa9a2919e2aa2d1eef4a8da06a6016cbca88a092ad0904e4ca5
+  sha256: 340a6912c5325239bc89745aef9897695822ed91731545c2519440227c09c83c
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -49,14 +49,11 @@ test:
 about:
   home: https://docs.ropensci.org/av/ (website), https://github.com/ropensci/av (devel)
   license: MIT
-  summary: Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with audio and
-    video in R. Generates high quality video from images or R graphics with custom audio.
-    Also offers high performance tools for reading raw audio, creating 'spectrograms',
-    and converting between countless audio / video formats. This package interfaces
-    directly to the C API and does not require any command line utilities.
+  summary: Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with audio and video in R. Generates high quality video from images or R graphics with custom audio. Also offers high performance tools for reading raw audio, creating 'spectrograms', and converting between countless audio / video formats. This
+    package interfaces directly to the C API and does not require any command line utilities.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
 
 extra:
