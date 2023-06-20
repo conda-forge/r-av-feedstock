@@ -6,19 +6,23 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-av-feedstock/
 About r-av
 ----------
 
-Home: https://docs.ropensci.org/av/ (website), https://github.com/ropensci/av (devel)
+Home: https://docs.ropensci.org/av/
 
 Package license: MIT
 
 Summary: Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with audio and video in R. Generates high quality video from images or R graphics with custom audio. Also offers high performance tools for reading raw audio, creating 'spectrograms', and converting between countless audio / video formats. This package interfaces directly to the C API and does not require any command line utilities.
+
+Development: https://github.com/ropensci/av
 About r-av
 ----------
 
-Home: https://docs.ropensci.org/av/ (website), https://github.com/ropensci/av (devel)
+Home: https://docs.ropensci.org/av/
 
 Package license: MIT
 
 Summary: Bindings to 'FFmpeg' <http://www.ffmpeg.org/> AV library for working with audio and video in R. Generates high quality video from images or R graphics with custom audio. Also offers high performance tools for reading raw audio, creating 'spectrograms', and converting between countless audio / video formats. This package interfaces directly to the C API and does not require any command line utilities.
+
+Development: https://github.com/ropensci/av
 
 Current build status
 ====================
@@ -91,20 +95,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11154&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-av-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_ffmpeg6r_base4.3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_ffmpeg5</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11154&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-av-feedstock?branchName=main&jobName=win&configuration=win%20win_64_ffmpeg5" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_ffmpeg6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11154&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-av-feedstock?branchName=main&jobName=win&configuration=win%20win_64_ffmpeg6" alt="variant">
                 </a>
               </td>
             </tr>
