@@ -42,7 +42,6 @@ requirements:
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
-    - ffmpeg
 
 test:
   commands:
