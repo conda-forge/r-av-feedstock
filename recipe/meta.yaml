@@ -1,4 +1,4 @@
-{% set version = "0.9.4" %}
+{% set version = "0.9.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/av_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/av/av_{{ version }}.tar.gz
-  sha256: 6dd79bcafcddb92569da8e57821961956119a1584a078dbf3709f6960b92a178
+  sha256: 410b32e2c73b43a6bdcd1c1e9dade1e53e67adf2a27afad77354e06d7d665ee8
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
